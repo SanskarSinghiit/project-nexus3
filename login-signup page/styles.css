@@ -1,0 +1,42 @@
+/* styles.css */
+
+.password-container {
+    position: relative;
+    
+  }
+  
+  .password-toggle-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  /* Apply border-radius to the password input */
+  .password-container .form-control {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding-right: 35px;
+  }
+  
+  /* Override Bootstrap's form-control styles for email input */
+  .form-outline .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  /* Adjust the width of the card */
+  .card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Adjust the margin between the buttons */
+  .card-body .btn {
+    margin-right: 10px;
+  }
+  .card {
+    max-width: 500px; /* Increase the value as needed */
+    margin: 0 auto;
+  }
